@@ -1,7 +1,23 @@
 body{
+  position: relative;
   margin: 0;
   width: 100vw;
   height: 100vh;
   background: url(../img/bg-nasa.jpg) no-repeat center center;
   background-size: cover;
+}
+
+.asteroid{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  z-index: 10;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.asteroid.warning{
+  background-color: red;
 }
